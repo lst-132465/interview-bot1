@@ -4,7 +4,7 @@ import tempfile
 import shutil
 from PyPDF2 import PdfReader
 from docx import Document
-import whisper
+# import whisper
 import jieba
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
